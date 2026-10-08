@@ -25,9 +25,11 @@
 
     <script> /* JavaScript*/
 
+         var nome = prompt(`Qual o seu nome? `)
+
          var n1 = parseFloat(prompt(`Digite o primeiro número: `));
 
-         var operação = (prompt(`Digite a operação desejada(+-*/): `));
+         var operação = prompt(`Digite a operação desejada(+-*/): `);
 
          var n2 = parseFloat(prompt(`Digite o segundo número: `));
 
@@ -61,7 +63,7 @@
 
          }
 
-         document.write(`<h2>O resultado da operação: ${n1} ${operação} ${n2} é igual a: ${s}</h2>`)
+         document.write(`<h2>Olá ${nome.toUpperCase()}, o resultado da operação: ${n1} ${operação} ${n2} é igual a: ${s}</h2>`)
 
     </script>
 
